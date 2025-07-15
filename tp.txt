@@ -1,0 +1,1000 @@
+  165  awk '{print $1}' employees.csv
+  166  awk ','  '{print $1}' employees.csv
+  167  awk -F ','  '{print $1}' employees.csv
+  168  cat
+  169  ls
+  170  cat employees.csv 
+  171  awk -F ',' '$3 == Engineering {print $2}' employees.csv 
+  172  awk -F',' '$3 == "Engineering" {print $2}' employees.csv
+  173  cat employees.csv 
+  174  awk -F',' '$3 == "Engineering" {print $2}' employees.csv
+  175  awk -F',' '$4 > 70000 {print $2, "-" , $3}' employees.csv 
+  176  awk -F',' 'NR > 1 {sum += $4; count++} END {print "Average:", sum/count}' employees.csv
+  177  awk -F',' 'NR>1 {dept[$3]++} END {for (d in dept) print d, dept[d]}' employees.csv
+  178  histoy
+  179  history
+  180  history | new.txt
+  181  history | each  new.txt
+  182  history | eac0  new.txt
+  183  history | eaco  new.txt
+  184  history > cmd.txt
+  185  ls
+  186  cmd.txt
+  187  cat cmd.txt 
+  188  cls
+  189  ls
+  190  cd ..
+  191  ls
+  192  mkdir c_ctuff
+  193  ls
+  194  cd user37/
+  195  ls
+  196  mkdir c_stuff
+  197  ls
+  198  cd c_stuff/
+  199  vim random_nuber.c
+  200  ls
+  201  c --version
+  202  gcc
+  203  clang
+  204  sudo apt update
+  205  sudo apt install clang
+  206  clgang --verison
+  207  clang
+  208  clgang --version
+  209  clang --version
+  210  ls
+  211  clang random_nuber.c 
+  212  ls
+  213  a
+  214  a.out
+  215  ./a.out 
+  216  cat random_nuber.c 
+  217  vim random_nuber.c 
+  218  cat random_nuber.c 
+  219  clang random_nuber.c 
+  220  ./a.out 
+  221  ls
+  222  vim format_nice.c
+  223  clang format_nice.c 
+  224  a
+  225  ./a.out 
+  226  vim format_nice.c
+  227  ls
+  228  ls -a
+  229  rm .format_nice.c.swp 
+  230  ls
+  231  rm .format_nice.c.swp 
+  232  ls -a
+  233  vim format_nice.c 
+  234  clang format_nice.c 
+  235  ./a.out 
+  236  vim format_nice.c 
+  237  clang format_nice.c 
+  238  ./a.out 
+  239  ls
+  240  cd week_3/
+  241  ls
+  242  cd commands_stuff/
+  243  ls
+  244  cd logs/june/
+  245  ls 
+  246  grep -ril "access_denied"
+  247  grep -il "access_denied"
+  248  s
+  249  ls
+  250  cd week_3/
+  251  ls
+  252  cd commands_stuff/
+  253  ls
+  254  cd logs/
+  255  ls
+  256  cd ju
+  257  cd july/
+  258  ls
+  259  cat log_2025-07-02.log 
+  260  ls
+  261  sed "s/LOGOUT/out/" log_2025-07-02.log 
+  262  cat log_2025-07-02
+  263  cat log_2025-07-02.log 
+  264  sed "s/LOGOUT/out/G" log_2025-07-02.log 
+  265  sed "s/LOGOUT/out/g" log_2025-07-02.log
+  266  svfsf
+  267  sf
+  268  s
+  269  sf
+  270  sd
+  271  f
+  272  sgf
+  273  dfg
+  274  dg
+  275  g
+  276  d
+  277  g
+  278  dg
+  279  dfg
+  280  gh
+  281  fg
+  282  h
+  283  fgh
+  284  fg
+  285  hfg;
+  286  g
+  287  ;
+  288  ;l
+  289  s
+  290  dfg
+  291  lsfg
+  292  fdg
+  293  dg
+  294  ef
+  295  gf
+  296  g
+  297  dfg
+  298  fd
+  299  ls
+  300  cd week_3/
+  301  ls
+  302  cd commands_stuff/
+  303  sl
+  304  ls
+  305  cd logs
+  306  ls
+  307  cd july/
+  308  ls
+  309  cat log_2025-07-01.log 
+  310  vim log_2025-07-01.log 
+  311  ls
+  312  cat log_2025-07-01.log 
+  313  grep -ni "\admin" log_2025-07-01.log 
+  314  grep -ni "\admin" *.log 
+  315  grep -ni "\\admin" *.log 
+  316  grep -ni "admin" *.log 
+  317  grep -ni "/admin" *.log 
+  318  ls
+  319  git --version
+  320  man git -tag
+  321  man git
+  322  git log
+  323  git config --get user.name
+  324  git config --list
+  325  git config --help
+  326  git config --add --global user.name "manan"
+  327  git config --add --global user.email "manangohel041@gmail.com"
+  328  git config --list
+  329  git config --list | grep name
+  330  cat ~/.gitconfig 
+  331  history
+  332  git config --global init.defaultBranch master
+  333  cat ~/.gitconfig 
+  334  ls
+  335  mkdir webflyx
+  336  cd we
+  337  ls
+  338  cd webflyx/
+  339  ls
+  340  ls -ls
+  341  ls -s
+  342  ls --help
+  343  cd ..
+  344  ls
+  345  cd we
+  346  cd c_stuff/
+  347  ls
+  348  ls -s
+  349  cat a.out 
+  350  ls -S
+  351  ls --help
+  352  cd webfl
+  353  ls
+  354  cd ./webflyc
+  355  cd ../CCCCCCCCCCCCwebflyc
+  356  cd ../webflyx/
+  357  ls
+  358  pwd
+  359  git init
+  360  ls
+  361  ls -l
+  362  ls -la
+  363  ls -las
+  364  git init
+  365  ls 
+  366  ls -la
+  367  find ./.git/
+  368  find ./.git
+  369  cat ./.git/HEAD 
+  370  ls -ls
+  371  ls 0la
+  372  ls -la
+  373  find ./.git/
+  374  cat .git/HEAD 
+  375  find ./git
+  376  cat .git/HE
+  377  find .git/
+  378  git status
+  379  git log
+  380  git status
+  381  ls
+  382  vim contents.md
+  383  cat contents.md 
+  384  git status
+  385  rm contents.md 
+  386  vim contents.md
+  387  git status
+  388  touch foo
+  389  git status
+  390  rm foo
+  391  git add .
+  392  ls
+  393  git status
+  394  touch foo
+  395  git status
+  396  mkdir foofoo
+  397  l
+  398  cd foofoo/
+  399  ls
+  400  touch innerfoo
+  401  ls
+  402  git status
+  403  cd ..
+  404  ls
+  405  git status
+  406  ls -la
+  407  cd foofoo/
+  408  ls
+  409  s
+  410  git status
+  411  ls
+  412  pw
+  413  pwd
+  414  cd ../foofoo/
+  415  pwd
+  416  git status
+  417  git add .
+  418  ls
+  419  git status
+  420  ls
+  421  cd ..
+  422  ls
+  423  rm -rf foofoo/
+  424  rm foo 
+  425  git stauts
+  426  git status
+  427  this is not somehting waht we w
+  428  git status
+  429  git rm foofoo 
+  430  git rm -r foofoo 
+  431  git status
+  432  git commit -m "A: add contents.md"
+  433  git status
+  434  git log
+  435  git log --oneline
+  436  git status
+  437  git log
+  438  man git-
+  439  git log -2
+  440  git log --oneline
+  441  git log -n 1
+  442  git log
+  443  find ./.git/
+  444  ls
+  445  cd ..
+  446  ls
+  447  pws
+  448  pwd
+  449  ls -ls
+  450  ls -la
+  451  git status
+  452  git log
+  453  ls
+  454  cat .git/objects/6b/
+  455  cat .git/objects/6b/339c7e41c5b89e58b194baaf33a2bf58cfd53b 
+  456  xxd .git/objects/6b/339c7e41c5b89e58b194baaf33a2bf58cfd53b 
+  457  ls
+  458  xxd contents.md 
+  459  git cat-file -p 6b33
+  460  cat .gt
+  461  cat .git
+  462  find .git
+  463  git cat-file -p 78
+  464  git cat-file -p a875
+  465  git cat-file -p e69d
+  466  git cat-file -p 9942
+  467  git cat-file -p a875
+  468  git log
+  469  git cat-file -p 6b33
+  470  git cat-file -p 9942
+  471  git cat-file -p 6b33
+  472  git cat-file -p 9942
+  473  git lo
+  474  git log
+  475  git cat-file -p 6b33
+  476  git cat-file -p 9942
+  477  git cat-file -p a875
+  478  ls
+  479  vim titles.md
+  480  ls
+  481  ls -ls
+  482  ls -la
+  483  rm .titles.md.swp 
+  484  ls
+  485  vim titles.md
+  486  cat contents.md 
+  487  cat titles.md 
+  488  git log
+  489  git status
+  490  git add .
+  491  git commit -m "B: add titles."
+  492  git log
+  493  git cat-file -p 6b33
+  494  git cat-file -p 9942
+  495  git cat-file -p 1ed9
+  496  git cat-file -p 8f94
+  497  git branch
+  498  mkdir quotes
+  499  cd quotes/
+  500  touch starwars.md dune.md
+  501  vim starwars.md 
+  502  vim dune.md 
+  503  ls
+  504  cd ..
+  505  ls
+  506  git status
+  507  cd quotes/
+  508  git status
+  509  cd ..
+  510  ls
+  511  git add .
+  512  git status
+  513  git commit -m "C: quotes added"
+  514  git status
+  515  git log
+  516  git log --oneline
+  517  git log -p
+  518  git log -pg
+  519  git config --add --local webflyx.cto primegen
+  520  git config --add --local webflyx.ceo laengin
+  521  git config --add --local webflyx.cfo mangin
+  522  cat .git/config 
+  523  git config --get webflyx.ceo
+  524  git config user.name
+  525  git config --unset webflyx.cto
+  526  git config
+  527  git config --list --local
+  528  cat .git/config 
+  529  ls
+  530  mkdir first_lec_revise
+  531  cd first_lec_revise/
+  532  git status
+  533  git init
+  534  ls -la
+  535  find .git/
+  536  cat .git/objects/
+  537  cat .git/objects/info/n
+  538  cat .git/objects/info/
+  539  find .git/objects/info/
+  540  git config
+  541  git config --list 
+  542  git config --list --global
+  543  git config --add --gloabl user.name "new man"
+  544  git config --add gloabl user.name "new man"
+  545  git config --global --add user.name "new man"
+  546  cat ~/gi
+  547  cat ~./gitconfig
+  548  cat ~/.gitconfig
+  549  git config gloabl --add temp.ceo "ya
+  550  "
+  551  git config gloabl --add temp.ceo "ya"
+  552  git config --global --add user.name "new man"
+  553  git config --global --add global.ceo
+  554  git config --global --add global.ceo "hoe"
+  555  cat ~/.gitconfig
+  556  git config --global --add global.cfo "newsff"
+  557  git config --global --add global.cfo "newsfddr"
+  558  cat ~/.gitconfig
+  559  git config -set new.ceo "sfd"
+  560  git config  --glooabl -set new.ceo "sfd"
+  561  git config  --glooabl -get 
+  562  git config  --glooabl --get 
+  563  git config  --gloabal --get 
+  564  git config  --gloabal --get user
+  565  git config  --gloabal --get user.name
+  566  git config --gloabl --get name
+  567  git config --gloabl --get user.name
+  568  git config  --get --gloabl user.name
+  569  git config  --get --gloabl user.ncl
+  570  lcs
+  571  git config
+  572  git config --gloabal --list
+  573  git config --list --global
+  574  git config --get --global 
+  575  git config --get --global user.nae
+  576  git config --get --global user.name
+  577  git config --get-all --global user.name
+  578  cat ~/.gitconfig 
+  579  git config --unset --gloabl user.name
+  580  git config --unset --gloabal user.name
+  581  git config --unset --global user.name
+  582  git config --unset-all --global user.name
+  583  cat ~/.gitconfig 
+  584  git config --remove-section --global global
+  585  cat ~/.gitconfig 
+  586  git config --add --global user.name
+  587  git config --add --global user.name "manan"
+  588  cat ~/.gitconfig 
+  589  ls
+  590  pwd
+  591  mkdir first/test1
+  592  mkdir first
+  593  ls
+  594  git status
+  595  git log
+  596  git status
+  597  ls
+  598  cd first/
+  599  git status
+  600  touch first.txt
+  601  git status
+  602  cd ..
+  603  ls
+  604  rm -rf first/
+  605  ls
+  606  ls -la
+  607  touch hola.txt
+  608  ls
+  609  git status
+  610  vim hola.txt 
+  611  cat hola.txt 
+  612  ls
+  613  git status
+  614  git add .
+  615  git status
+  616  git rm hola.txt 
+  617  git status
+  618  git -f status
+  619  git rm -f hola.txt 
+  620  ls
+  621  git status
+  622  ls
+  623  vim test1.txt
+  624  cat test1.txt 
+  625  git status
+  626  git add .
+  627  git commit -m "A: test1 crated"
+  628  find .git/con
+  629  ls
+  630  cat .git/config 
+  631  git log
+  632  git log --help
+  633  git log -n 10
+  634  git log -n 10 --decorate
+  635  git log -n 10
+  636  git log -n 10 --decorate=1
+  637  git log
+  638  git log -p
+  639  git log
+  640  git cat-file -p b7a2
+  641  git cat-file -p 17eb
+  642  git cat-file -p 0c73
+  643  vim test2.txt
+  644  ls -la
+  645  git log
+  646  git status
+  647  git add .
+  648  git commit "B: created test2"
+  649  git commit -m "B: created test2"
+  650  git log -n 1
+  651  git log
+  652  git cat-file -p b7a2
+  653  git cat-file -p 17eb
+  654  git cat-file -p 0c73
+  655  git cat-file -p a20e
+  656  git cat-file -p ee15
+  657  git cat-file -p 89e9
+  658  find .git/
+  659  cd ../webflyx/
+  660  ls
+  661  git branch
+  662  git branch -m master main
+  663  git branch
+  664  git branch --help
+  665  git --version
+  666  cat .git/config 
+  667  git config --add --local init.defaultBanch main
+  668  cat .git/config 
+  669  git branch new_branch
+  670  git branch
+  671  man git branch
+  672  git branch
+  673  git switch -c verry_new_branch
+  674  git brach
+  675  git branch
+  676  git switch main
+  677  git brnahc
+  678  git branch
+  679  git branch --help
+  680  git switch -c add_classics
+  681  git branch
+  682  git log
+  683  git log main
+  684  git branch
+  685  git swithc mian
+  686  git switch main 
+  687  git branch
+  688  git swtich add
+  689  git swtich add_a
+  690  git swtich ad
+  691  git switch add_classics 
+  692  git branch
+  693  ls
+  694  vim classic.csv
+  695  git branch
+  696  git log
+  697  git status
+  698  git add .
+  699  git commit -m "D: is grearr"
+  700  git log
+  701  git log main
+  702  git log
+  703  git log main
+  704  git log --decorate=full
+  705  git log --decorate=short
+  706  git log
+  707  git log --decorate=none
+  708  git log --decorate=no
+  709  git log --graph
+  710  git log -stat
+  711  git log --stat
+  712  hitory
+  713  history
+  714  cat .git/HEAD 
+  715  cat .git/refs/
+  716  cat .git/refs/heads/
+  717  find .git/refs/heads/
+  718  find .git/refs/heads/ad
+  719  find .git/refs/heads/add_classics
+  720  cat .git/refs/heads/add_classics
+  721  cat .git/refs/heads/main
+  722  git log --online
+  723  git log --oneline
+  724  git log --graph 
+  725  git switch main
+  726  git branch
+  727  sdffg
+  728  dfg
+  729  dgdgdfgdg
+  730  dgd
+  731  gd
+  732  g
+  733  dg
+  734  dgdfgdfg
+  735  ls
+  736  vim von
+  737  ls
+  738  ls -la
+  739  vim contents.md 
+  740  ls
+  741  git status
+  742  lss
+  743  rm von
+  744  ls
+  745  rm von
+  746  git status
+  747  git add .
+  748  git commit -m "E: update contents"
+  749  git log
+  750  git log add_classics 
+  751  git log 
+  752  git log --graph 
+  753  git log --graph --all
+  754  git log --graph --all --oneline
+  755  lls
+  756  git branch
+  757  cat contents.md 
+  758  git swtich a
+  759  git switch add_classics 
+  760  cat contents.md 
+  761  git switch main
+  762  git branch
+  763  git merge add_classics 
+  764  git branch
+  765  git log --graph --all
+  766  git log --graph --all --parents
+  767  git log --graph --oneline --all --parents
+  768  git log --graph
+  769  git log --graph --oneline
+  770  git log --graph --oneline --decorate
+  771  git log --graph --oneline --decorate --parents
+  772  git log --graph --oneline --decorate=full --parents
+  773  git branch 
+  774  git branch -d new_branch 
+  775  git branch 
+  776  git branch -d verry_new_branch 
+  777  git branch 
+  778  git branch -d add_classics 
+  779  git branch 
+  780  git log --oneline --graph --parents
+  781  git swtich -c update_title
+  782  git switch -c update_titles
+  783  git branch 
+  784  vim ti
+  785  ls
+  786  rm ti
+  787  vim contents.md 
+  788  git status
+  789  git branch
+  790  git log main
+  791  git log main --oneline
+  792  git log 
+  793  git add .
+  794  git commit -m "G: update tkkes"
+  795  git log --oneline 
+  796  git log main
+  797  git log main --oneline
+  798  git swtich main
+  799  git switch main
+  800  git lgo
+  801  git log
+  802  vim titles.md 
+  803  cat contents.md 
+  804  ls
+  805  vim titles.md 
+  806  git merge update_titles 
+  807  git log -p
+  808  q
+  809  git log -p
+  810  git log -p --online
+  811  git log -p --less
+  812  git log main
+  813  git log --oneline --graph
+  814  vim
+  815  ls
+  816  git branch
+  817  git log
+  818  git log --graph --oneline --parents
+  819  git branch -d update_titles 
+  820  git log --graph --ls
+  821  cd we
+  822  cd week_3/
+  823  ls
+  824  cat commands_stuff/
+  825  cd commands_stuff/
+  826  ls
+  827  cat log
+  828  cat logs/
+  829  cd user_info/
+  830  ls
+  831  cat employees.csv 
+  832  sed - i  "s/Bob/boba" employees.csv 
+  833  sed -i  "s/Bob/boba" employees.csv 
+  834  cat employees.csv 
+  835  sed -i  "s/Bob/boba/" employees.csv 
+  836  cat employees.csv 
+  837  cd ../../../we
+  838  cd ../../../webflyx/
+  839  ls
+  840  pwd
+  841  git log --oneline -p
+  842  git log  --oneline --all --graph
+  843  cd ../soft_hard_revise
+  844  cd ..
+  845  ls
+  846  mkdir soft_hard_revise_Stuff
+  847  ls
+  848  cd soft_hard_revise_Stuff/
+  849  ls
+  850  pwd
+  851  git init
+  852  ls
+  853  ls -la
+  854  git status
+  855  echo "hello" > test1.txt
+  856  git status
+  857  git reset --soft
+  858  git reset --hard
+  859  git reset --har
+  860  git add .
+  861  git status
+  862  git reset --soft
+  863  git status
+  864  git diff
+  865  git diff --cahched
+  866  git diff --cached
+  867  git add .
+  868  git commit -m "a:elo"
+  869  git diff
+  870  git diff --cached
+  871  git log
+  872  git reset --soft HEAD~1
+  873  git reset --soft HEAD
+  874  git log
+  875  git status
+  876  git reset --soft 2b003
+  877  git diff
+  878  git diff --cached
+  879  git log
+  880  git diff --staged
+  881  git reset --hard 2b003
+  882  git diff
+  883  git diff --stategd
+  884  git diff --staged
+  885  git diff --cached
+  886  git log
+  887  git statsu
+  888  git status
+  889  echo "dffsfsf" > t2.txt
+  890  echo "ddd" >>test1.txt 
+  891  git status
+  892  git add t2.txt 
+  893  git status
+  894  git add .
+  895  git commit -m "b:Ddd"
+  896  echo "ddd" >test1.txt 
+  897  git status
+  898  git reset --soft
+  899  echo "ddd" >test1.txt 
+  900  git status
+  901  git add .
+  902  git commit -m "c:Ddd"
+  903  git log --oneline
+  904  git status
+  905  ls
+  906  echo "df 
+  907  echo "sfss" > t32.txt
+  908  git add t32.txt 
+  909  git status
+  910  git reset --soft HEAD~1
+  911  git status
+  912  cat test1.txt 
+  913  git log --oneline
+  914  git add test1.txt 
+  915  git commit -m "c:dds"
+  916  git status
+  917  cat t2.txt 
+  918  echo "ww" > test1.txt 
+  919  git add test1.txt 
+  920  git status
+  921  git diff
+  922  git diff --chached
+  923  git diff
+  924  git diff --chached
+  925  git diff
+  926  git diff --chached
+  927  git diff --cached
+  928  git diff
+  929  git status
+  930  git diff
+  931  git diff --cached
+  932  git reset --hard HEAD~!
+  933  git reset --hard HEAD~1
+  934  git status
+  935  cat t2.txt 
+  936  1at test1.txt 
+  937  cat test1.txt 
+  938  cd ../
+  939  ls
+  940  cd we
+  941  mkdir wk_3
+  942  mv week_3/ wk_3/
+  943  ls
+  944  cd webflyx/
+  945  ls
+  946  cd ../soft_hard_revise_Stuff/
+  947  echo "first version" > file.txt
+  948  git add .
+  949  git commit -m "A"
+  950  echo "second version" >> file.txt
+  951  git add .
+  952  git commit -m "B"
+  953  echo "third version" >> file.txt
+  954  git add .
+  955  git commit -m "C"
+  956  git log --oneline
+  957  git log
+  958  git status
+  959  cat file.txt  t2.txt  test1.txt 
+  960  ;s
+  961  ls
+  962  cat file.txt 
+  963  git status
+  964  git reset --mixed HEAD~1
+  965  git status
+  966  cat file.txt 
+  967  git add .
+  968  git log --oneline
+  969  git commit -m "C"
+  970  git log
+  971  git status
+  972  echo "ddd" >> test1.txt 
+  973  git add .
+  974  git status
+  975  git log --oneline -n 2
+  976  git reset --mixed HEAD~1
+  977  git status
+  978  cat test1.txt 
+  979  cat file.txt 
+  980  cd ../webflyx/
+  981  ls
+  982  cd ../soft_hard_revise_Stuff/
+  983  cat t2.txt 
+  984  git rm  t2.txt 
+  985  ls
+  986  git status
+  987  git restore --staged
+  988  git restore --staged .
+  989  ls
+  990  git status
+  991  cat t2
+  992  git status
+  993  git add .
+  994  ls
+  995  git status
+  996  ls -la
+  997  mkdir ../webflyx-local
+  998  ls
+  999  cd ..
+ 1000  ls
+ 1001  cd webflyx
+ 1002  cd ../webflyx-local/
+ 1003  pwd
+ 1004  git remote add origin ../webflyx
+ 1005  git init
+ 1006  git remote add origin ../webflyx
+ 1007  git remote
+ 1008  git fetch 
+ 1009  ls
+ 1010  ls -la
+ 1011  find .git/
+ 1012  git log origin/main --oneline
+ 1013  git log
+ 1014  git log --online origin/main
+ 1015  git log --oneline origin/main
+ 1016  git merge origin/main 
+ 1017  git log --oneline
+ 1018  ls
+ 1019  cat contents.md 
+ 1020  git remote add origin https://github.com/manan402/webflyx.git
+ 1021  cd ../webflyx
+ 1022  git remote add origin https://github.com/manan402/webflyx.git
+ 1023  git remote
+ 1024  cd ../webflyx
+ 1025  cd ../webflyx-local/
+ 1026  git switch -c foo
+ 1027  git push origin 
+ 1028  git push origin foo
+ 1029  cd ../webflyx
+ 1030  git branch
+ 1031  git swtich fo
+ 1032  git switch foo
+ 1033  git log --oneline
+ 1034  git switch main
+ 1035  cd ../webflyx-local/
+ 1036  git branch 
+ 1037  git branch -D foo
+ 1038  git switch -m master main
+ 1039  git -m master main
+ 1040  git branch -m master main
+ 1041  git branch
+ 1042  git switch main
+ 1043  git branch -D foo
+ 1044  git branch
+ 1045  git push origin 
+ 1046  cd ../webflyx
+ 1047  ls
+ 1048  git branch
+ 1049  git branch -D foo
+ 1050  git branch
+ 1051  history 
+ 1052  git history > hst.txt
+ 1053  history > hst.txt
+ 1054  hspapi.dll 
+ 1055  ls
+ 1056  cat hst.txt 
+ 1057  grep "merge" hst.txt 
+ 1058  rm hst.txt 
+ 1059  git status
+ 1060  history
+ 1061  ssh-keygen -t ed25519 -C "manangohel041@gmail.com"
+ 1062  clip < ~/.ssh/id_ed25519.pub
+ 1063  sudo apt install geomview
+ 1064  wsl --shutdown
+ 1065  cd ..
+ 1066  ks
+ 1067  cd ..
+ 1068  pwd
+ 1069  ls
+ 1070  cd ..
+ 1071  cat
+ 1072  ls
+ 1073  cd et
+ 1074  cd etc/
+ 1075  ls
+ 1076  cd pam.d/
+ 1077  cd ..
+ 1078  cd p
+ 1079  cd..
+ 1080  ls
+ 1081  cd ..
+ 1082  ls
+ 1083  cd webflyx
+ 1084  ls
+ 1085  git remote -v
+ 1086  git fetch origin/ma
+ 1087  git fetch origin/main
+ 1088  git fetch origin 
+ 1089  ls
+ 1090  git log --oneline
+ 1091  git remote 0v
+ 1092  git remote -vv
+ 1093  ls
+ 1094  cd ..
+ 1095  ls
+ 1096  cd webflyx-local/
+ 1097  ls
+ 1098  git remote 0v
+ 1099  git remote 0-v
+ 1100  git remote -v
+ 1101  git switch -c foo
+ 1102  git push origin foo
+ 1103  cd ..
+ 1104  cd webflyx
+ 1105  ls
+ 1106  git branch
+ 1107  git branch -D foo 
+ 1108  git branch 
+ 1109  git push origin main
+ 1110  git remote set-url origin git@github.com:manan402/webflyx.git
+ 1111  git remote -v
+ 1112  git push origin main
+ 1113  cd ..
+ 1114  ls
+ 1115  cd  webflyx-local/
+ 1116  ls
+ 1117  git pull origin 
+ 1118  git pull origin main 
+ 1119  s
+ 1120  ls
+ 1121  git log --oneline
+ 1122  git pull origin  main
+ 1123  ls
+ 1124  cd ..
+ 1125  ls
+ 1126  cd webflyx
+ 1127  ls
+ 1128  git pull origin 
+ 1129  git pull origin  main 
+ 1130  ls
+ 1131  cat classic.csv 
+ 1132  git l
+ 1133  git log --oneline
+ 1134  git reset --hard HEAD~`
+ 1135  git reset --hard HEAD~1
+ 1136  git log --oneline
+ 1137  git merge update_dune 
+ 1138  git branch -D update_dune 
+ 1139  ls
+ 1140  git branch 
+ 1141  git pull origin main 
+ 1142  git log --oneline
+ 1143  ls
+ 1144  echo "Dfss" > net.txt
+ 1145  ls
+ 1146  git status
+ 1147  git add .
+ 1148  git commit -m "tp"
+ 1149  ls
+ 1150  git log --oneline
+ 1151  git push origin  main 
+ 1152  ls
+ 1153  git reset --hard HEAD~1
+ 1154  git push origin  main 
+ 1155  ls
+ 1156  echo "Dfss" > net.txt
+ 1157  rm new
+ 1158  rm net.txt 
+ 1159  ls
+ 1160  git status
+ 1161  git pull origin main 
+ 1162  ls
+ 1163  git push origin  main 
+ 1164  history >tp.txt
